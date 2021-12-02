@@ -1,4 +1,5 @@
-n = int(input("input: "))
+n = int(input("Input: "))
+print("Output :")
 x = 2
 
 for a in range(1,n+1):                  #a = mencari baris
