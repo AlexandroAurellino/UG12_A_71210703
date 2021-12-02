@@ -1,8 +1,8 @@
 x = str(input("Masukkan nama: "))
-g = "Masukkan nomor kursi "+x+" : "
 sutesna = []    #sutesna = nomer kursi
 bambang = []    #bambang = daftar nama
 while  x != "STOP":   
+    g = "Masukkan nomor kursi "+x+" : "
     y = input(g)
     if y not in sutesna:
         sutesna.append(y)
